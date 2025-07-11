@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1 {
+    font-size: 2rem;
+    color: #f6f5f5;
+    text-align: center;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #161111;
+}
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.left-heart {
+    width: 200px;
+    margin-left: 50px;
+& .heart {
+    display: block;
+}
+    & .heart{
+        width: 50px;
+    }
+}
+.left-heart .heart2{
+    width: 50px;
+    margin-left: 200px;
+}
+.left-heart .heart4{
+    width: 50px;
+    margin-left: 100px;
+}
+.left-heart .heart1{
+    width: 50px;
+    margin-left: 50px;
+}
+.right-heart {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.right-heart .heart1, .heart2, .heart3, .heart4 {
+    display: block;
+    width: 50px;
+    & .heart2{
+        width: 50px;
+    }
+}
+.right-heart .heart1 {
+    margin-right: 50px;
+}
+.right-heart .heart2 {
+    margin-right: 200px;
+}
+
+.right-heart .heart4 {
+    margin-right: 120px;
+}
+.container-img img {
+    display: block;
+}
+.right-heart .heart3 {
+    margin-right: 50px;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.main-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.btn:hover {
+  background-color: #e43f4a;
+}
